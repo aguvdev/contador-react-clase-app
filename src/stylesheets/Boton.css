@@ -1,0 +1,39 @@
+:root{
+  --color-rojo: #bc202a;
+  --color-rojo-osc: #8b121a;
+  --color-marron: #5c4c44;
+  --color-marron-osc: #443730;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;600&display=swap');
+
+button {
+  width: 150px;
+  height: 50px;
+  padding: 3px;
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color .2s ease;
+}
+
+.boton-clic{
+  background-color: var(--color-rojo);
+}
+
+.boton-clic:hover {
+  background-color: var(--color-rojo-osc);
+}
+
+.boton-reiniciar{
+  background-color: var(--color-marron);
+}
+
+.boton-reiniciar:hover{
+  background-color: var(--color-marron-osc);
+}
